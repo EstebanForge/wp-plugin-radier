@@ -1,0 +1,41 @@
+{
+  "name": "estebanforge/wp-plugin-radier",
+  "description": "WordPress plugin radier: a firm base layer with Pest v4 test infrastructure. For kick start your next project.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "EstebanForge"
+    }
+  ],
+  "require": {
+    "php": "^8.3"
+  },
+  "require-dev": {
+    "brain/monkey": "^2.7",
+    "pestphp/pest": "^4.0",
+    "php-stubs/wordpress-stubs": "^7.1",
+    "phpstan/phpstan": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "WpPluginRadier\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "WpPluginRadier\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    },
+    "sort-packages": true
+  },
+  "scripts": {
+    "analyse": "phpstan --memory-limit=1G",
+    "test": "pest",
+    "test:coverage": "pest --coverage"
+  }
+}

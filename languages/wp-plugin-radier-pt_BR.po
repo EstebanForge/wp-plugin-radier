@@ -1,0 +1,17 @@
+# Placeholder translations for WP Plugin Radier (Portuguese, Brazil).
+# PO files do not load in WordPress; compile to .mo first:
+#   msgfmt languages/wp-plugin-radier-pt_BR.po -o languages/wp-plugin-radier-pt_BR.mo
+#   (or: wp i18n make-mo languages)
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Plugin Radier 0.1.0\n"
+"Report-Msgid-Bugs-To: https://example.com/wp-plugin-radier\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Português do Brasil <LL@li.org>\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Domain: wp-plugin-radier\n"

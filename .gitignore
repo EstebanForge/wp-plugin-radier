@@ -1,0 +1,8 @@
+/vendor/
+/.pest/
+.phpunit.result.cache
+.phpunit.cache/
+.codegraph/
+.pi/
+.DS_Store
+._*

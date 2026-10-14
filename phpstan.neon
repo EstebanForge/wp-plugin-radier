@@ -1,0 +1,8 @@
+parameters:
+	level: max
+	paths:
+		- src
+		- wp-plugin-radier.php
+		- uninstall.php
+	scanFiles:
+		- %currentWorkingDirectory%/vendor/php-stubs/wordpress-stubs/wordpress-stubs.php
