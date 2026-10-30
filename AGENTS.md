@@ -11,6 +11,19 @@ WordPress plugin 'radier' scaffold (radier: the plain concrete slab poured over 
 
 ## Commands
 
+### Quick Commands (`just` recipes)
+
+```bash
+just            # List all available targets
+just analyse    # Run PHPStan static analysis (level max)
+just test       # Run Pest test suite
+just test-coverage # Run Pest with code coverage
+just check      # Run full check suite (syntax, PHPStan, Pest)
+just ci         # Run local CI verification gate
+```
+
+Or via direct Composer commands:
+
 - Test (all): `composer test` (equivalent to `./vendor/bin/pest`)
 - Coverage: `composer test:coverage`
 - Single test file: `./vendor/bin/pest tests/Unit/ExampleServiceTest.php`
